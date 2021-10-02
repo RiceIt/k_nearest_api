@@ -1,4 +1,4 @@
-##Deployment
+## Deployment
 2. **pip install requriments.txt**
 3. **create postgreSQL database**
 4. **set environment variables:**
@@ -9,7 +9,7 @@
 5. **alembic upgrade head**
 6. **uvicorn main:app --reload**
 
-##API
+## API
 #### GET
 + /user/{user_id}
 + /k_nearest/?user_id=user_id&k=k&radius=radius
